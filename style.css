@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+
+.login-page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f2f2f2;
+}
+
+.login-box {
+  background: white;
+  padding: 30px;
+  width: 300px;
+  text-align: center;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(0,0,0,.2);
+}
+
+.login-box input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.login-box button {
+  width: 100%;
+  padding: 10px;
+  background: #8b0000;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+
+.header {
+  background: #8b0000;
+  color: white;
+  padding: 15px;
+  font-size: 22px;
+  text-align: center;
+}
+
+.main {
+  display: flex;
+  height: calc(100vh - 55px);
+}
+
+.sidebar {
+  width: 200px;
+  background: #ffd700;
+  padding: 10px;
+}
+
+.sidebar div {
+  padding: 12px;
+  cursor: pointer;
+}
+
+.sidebar div:hover {
+  background: rgba(0,0,0,.1);
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+}
+
+.form-table {
+  display: flex;
+  gap: 30px;
+}
+
+.form, .table {
+  width: 50%;
+}
+
+.form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.form button {
+  background: #8b0000;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background: #eee;
+}
